@@ -62,6 +62,26 @@ h1, h2, h3, h4, h5 {
 	margin-left: 25px;
 }
 /* Your code starts here! */
+.navbar{
+
+width: 100%;
+background-color: red;
+position: fixed;
+top: 0;
+left: 0;
+ 
+height: 80px;
+  background-color: transparent;
+  border: none;
+  z-index: 100;
+  transition: background-color 1s ease 0s;
+
+}
+
+.wordsbar{
+	text-align: center;
+}
+
 body {
 	margin: 40px;
 }
@@ -144,7 +164,7 @@ ul.a {
   }
   header {
     display: flex;
-    flex-direction: column;
+	flex-direction: column;
 }
 
 nav, .services-header-img, header h1, header p {
